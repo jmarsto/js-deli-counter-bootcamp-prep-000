@@ -23,4 +23,7 @@ function currentLine(katzDeliLine) {
     }
     return readOut.slice(0, -2)
   }
+  else {
+    return "The line is currently empty."
+  }
 }
