@@ -21,6 +21,6 @@ function currentLine(katzDeliLine) {
     for (var i = 0; i < katzDeliLine.length; i++) {
     readOut = readOut + `${(i + 1)}. ${katzDeliLine[i]}, `
     }
-    return readOut
+    readOut.slice(0, -2)
   }
 }
