@@ -20,7 +20,7 @@ function currentLine(katzDeliLine) {
   if (katzDeliLine.length > 0) {
     for (var i = 0; i < katzDeliLine.length; i++) {
     readOut = readOut + `${(i + 1)}. ${katzDeliLine[i]}, `
-    return readOut
     }
+    return readOut
   }
 }
